@@ -1,0 +1,50 @@
+/* 레이아웃 */
+body {
+    padding: 20px;
+    font-family:  'Nanum Gothic', sans-serif;
+    text-align: center;
+}
+nav {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+section {
+    margin-top: 20px;
+}
+
+/* 엘리먼트 */
+.title {
+    font-family: 'Jua', sans-serif;
+    font-size: 2.5em;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.subtitle {
+    font-family: 'Jua', sans-serif;
+    font-size: 1.2em;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+nav a {
+    color: #c7c7c7;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.positive-button {
+    width: 100px;
+    height: 30px;
+    background-color: greenyellow;
+}
+.negative-button {
+    width: 100px;
+    height: 30px;
+    background-color: tomato;
+}
+
+/* 옵션 */
+.selected {
+    color: black;
+}
