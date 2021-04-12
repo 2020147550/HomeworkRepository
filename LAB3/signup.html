@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>회원가입 | 민서마켓</title>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <div>
+            <header>
+                <h1 class="title">민서마켓</h1>
+            </header>
+            <nav>
+                <a href="index.html">홈</a>
+                <a href="login.html">로그인</a>
+                <a class="selected">회원가입</a>
+            </nav>
+            <form method="post" autocomplete="on">
+                <section>
+                    <h3 class="subtitle">회원 정보</h3>
+                    <p><label>이름 : <input name="name" type="text" autofocus required/></label></p>
+                    <p><label>전화번호 : <input name="phone" type="tel" placeholder="###-####-####" pattern="\d{3}-\d{4}-\d{4}" required/></label></p>
+                    <p><label>생년월일 : <input name="birth" type="date" required/></label></p>
+                    <p><label>이메일 (선택) : <input name="email" type="email" placeholder="name@domain.com"/></label></p>
+                </section>
+                <section>
+                    <h3 class="subtitle">계정 정보</h3>
+                    <p><label>아이디 : <input name="id" type="text" required/></label></p>
+                    <p><label>비밀번호 : <input name="pw" type="password" required autocomplete="off"/></label></p>
+                    <p><label>비밀번호 확인 : <input name="pwcheck" type="password" required autocomplete="off"/></label></p>
+                </section>
+                <section>
+                    <p>
+                        <input class="positive-button" type="submit" value="회원가입"/>
+                        <input class="negative-button" type="reset" value="초기화"/>
+                    </p>
+                </section>
+            </form>
+        </div>
+    </body>
+</html>
