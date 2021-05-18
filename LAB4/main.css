@@ -1,0 +1,186 @@
+/* 공통:레이아웃 */
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    font-family:  'Nanum Gothic', sans-serif;
+}
+body > div {
+    width: 800px;
+}
+header {
+    margin: 30px 0;
+}
+nav {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+/* 공통:엘리먼트 */
+.title {
+    position: relative;
+    font-family: 'Jua', sans-serif;
+    font-size: 2.5em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    animation-name: slideAnimation;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+}
+nav a {
+    color: #c7c7c7;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin: 0 10px;
+}
+h3 {
+    margin: 0;
+}
+.subtitle {
+    display: inline-block;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 0.9rem;
+}
+input, select {
+    background-color: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+input:focus, select:focus {
+    outline: none;
+}
+
+/* index:레이아웃 */
+.description {
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+
+/* index:엘리먼트 */
+.column {
+    column-count: 2;
+    column-gap: 30px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: black;
+}
+.item-container {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.item-option {
+    width: 250px;
+    flex-basis: 250px;
+    border-right: 2px solid black;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.item-option-manufacturer {
+    width: 100%;
+}
+.item-option-search {
+    width: 100%;
+    box-sizing: border-box;
+}
+.item-option-search-button {
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid black;
+}
+.item-option-search-button:hover {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(158, 158, 158);
+    border: 2px solid black;
+}
+.item-list {
+    display: flex;
+    flex-flow: column nowrap;
+    flex-basis: 0;
+    flex-grow: 1;
+    gap: 50px;
+    justify-content: center;
+    padding: 50px;
+}
+.item {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(45deg, black, gray);
+    box-shadow: 0 0 10px black;
+    overflow: hidden;
+    text-align: right;
+    transition: box-shadow 1s;
+}
+.item:hover {
+    box-shadow: 0 0 50px black;
+}
+.item > img {
+    height: 100%;
+    transition: height 1s;
+}
+.item > img:hover {
+    height: 150%;
+}
+.item-overlay {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    color: white;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    text-align: left;
+}
+
+/* login,signup:엘리먼트 */
+.positive-button {
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid skyblue;
+}
+.positive-button:hover {
+    background-color: rgb(164, 215, 235);
+}
+.negative-button {
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid red;
+}
+.negative-button:hover {
+    background-color: rgb(255, 198, 198);
+}
+
+/* 옵션 */
+.selected {
+    color: black;
+}
+.mt10 {
+    margin-top: 10px;
+}
+.mt20 {
+    margin-top: 20px;
+}
+
+/* 애니메이션 */
+@keyframes slideAnimation {
+    0% {
+        left: 1020px;
+        opacity: 0;
+    }
+    100% {
+        left: 0;
+        opacity: 1;
+    }
+}

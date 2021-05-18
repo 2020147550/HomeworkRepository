@@ -1,0 +1,86 @@
+[
+    {
+        "order":1,
+        "name":"Galaxy S21",
+        "price":"900,000",
+        "manufacturer":"Samsung",
+        "image":"sgs21.png"
+    },
+    {
+        "order":2,
+        "name":"Galaxy Z Fold2",
+        "price":"1,600,000",
+        "manufacturer":"Samsung",
+        "image":"sgzf2.png"
+    },
+    {
+        "order":3,
+        "name":"Galaxy Z Flip",
+        "price":"1,200,000",
+        "manufacturer":"Samsung",
+        "image":"sgzfl.png"
+    },
+    {
+        "order":4,
+        "name":"Galaxy A42",
+        "price":"420,000",
+        "manufacturer":"Samsung",
+        "image":"sga42.png"
+    },
+    {
+        "order":5,
+        "name":"iPhone 12 Pro",
+        "price":"1,300,000",
+        "manufacturer":"Apple",
+        "image":"ai12p.png"
+    },
+    {
+        "order":6,
+        "name":"iPhone 12",
+        "price":"1,000,000",
+        "manufacturer":"Apple",
+        "image":"ai12.png"
+    },
+    {
+        "order":7,
+        "name":"iPhone 11",
+        "price":"800,000",
+        "manufacturer":"Apple",
+        "image":"ai11.png"
+    },
+    {
+        "order":8,
+        "name":"iPhone SE",
+        "price":"500,000",
+        "manufacturer":"Apple",
+        "image":"aise.png"
+    },
+    {
+        "order":9,
+        "name":"Pixel 5",
+        "price":"830,000",
+        "manufacturer":"Google",
+        "image":"gp5.png"
+    },
+    {
+        "order":10,
+        "name":"Pixel 4 XL",
+        "price":"1,300,000",
+        "manufacturer":"Google",
+        "image":"gp4xl.png"
+    },
+    {
+        "order":11,
+        "name":"WING",
+        "price":"750,000",
+        "manufacturer":"LG",
+        "image":"lw.png"
+    },
+    {
+        "order":12,
+        "name":"Velvet",
+        "price":"550,000",
+        "manufacturer":"LG",
+        "image":"lv.png"
+    }
+]

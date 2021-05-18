@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>홈 | 민서마켓</title>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div>
+            <header>
+                <h1 class="title">민서마켓</h1>
+            </header>
+            <nav>
+                <a class="selected">홈</a>
+                <a href="login.html">로그인</a>
+                <a href="signup.html">회원가입</a>
+            </nav>
+            <section class="description">
+                민서마켓은 스마트폰 제조사와 소비자 사이의 중개인으로서 최신 스마트폰을 할인된 가격으로 판매하는 E-commerce입니다.
+                다양한 할인 혜택으로 합리적이게 구입하세요!
+            </section>
+            <section class="item-container">
+                <form class="item-option">
+                    <h3>제조사</h3>
+                    <select id="manufacturer" class="item-option-manufacturer mt10">
+                        <option value="All" selected>All</option>
+                        <option value="Samsung">Samsung</option>
+                        <option value="Apple">Apple</option>
+                        <option value="Google">Google</option>
+                        <option value="LG">LG</option>
+                    </select>
+                    <h3 class="mt20">키워드</h3>
+                    <input id="keyword" class="item-option-search mt10" type="text" placeholder="찾을 제품의 이름을 입력해주세요">
+                    <button type="submit" class="item-option-search-button mt20">검색</button>
+                </form>
+                <div class="item-list">
+                    <!-- <div class="item">
+                        <img src="img/sgs21.png" alt="Galaxy S21">
+                        <div class="item-overlay">
+                            제품명 : Galaxy S21<br>제조사 : Samsung<br>가격 : 900,000원
+                        </div>
+                    </div> -->
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
